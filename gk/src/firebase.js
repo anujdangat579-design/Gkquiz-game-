@@ -21,13 +21,14 @@ import { getFunctions } from 'firebase/functions'
 
 // Replace with your Firebase project config (Project Settings -> General -> Your apps)
 const firebaseConfig = {
-  apiKey: 'YOUR_API_KEY',
-  authDomain: 'YOUR_PROJECT.firebaseapp.com',
-  projectId: 'YOUR_PROJECT_ID',
-  storageBucket: 'YOUR_PROJECT.appspot.com',
-  messagingSenderId: 'YOUR_SENDER_ID',
-  appId: 'YOUR_APP_ID',
-}
+  apiKey: "AIzaSyCq80nKg7-lbEP_L2NYTiJMkY9WOfEOtc8",
+  authDomain: "gkquiz-game-e48bb.firebaseapp.com",
+  projectId: "gkquiz-game-e48bb",
+  storageBucket: "gkquiz-game-e48bb.firebasestorage.app",
+  messagingSenderId: "584683947316",
+  appId: "1:584683947316:web:3eb83578ee701316f3d161",
+  measurementId: "G-YJJ3313RX4"
+};
 
 export const app = initializeApp(firebaseConfig)
 export const db = getFirestore(app)
